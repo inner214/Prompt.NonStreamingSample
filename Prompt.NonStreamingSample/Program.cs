@@ -19,7 +19,7 @@ OpenAIPromptExecutionSettings executionSettings = new OpenAIPromptExecutionSetti
 
 KernelArguments kernelArguments = new KernelArguments(executionSettings);
 
-int count = 5;
+int count = 75;
 string prompt = $"Generate {count} funny company names.";
 
 Stopwatch stopWatch = Stopwatch.StartNew();
